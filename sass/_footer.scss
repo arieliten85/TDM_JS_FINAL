@@ -1,0 +1,107 @@
+footer {
+    .footer {
+        background: rgba(91, 54, 116, 0.705);
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding: 20px;
+        flex-direction: column;
+        gap: 16px;
+
+        .footer-nav a {
+            list-style: none;
+            text-transform: uppercase;
+            font-size: 1em;
+            color: rgb(233, 221, 232);
+        }
+
+        .footer-nav a:hover {
+            text-decoration: underline solid 3px rgb(233, 221, 232);
+        }
+
+        .footer-nav-item {
+            padding: 12px;
+        }
+
+        .footer-item-active {
+            text-decoration: underline solid 3px rgb(171, 116, 226);
+        }
+
+        .card-credit,
+        .icon-social {
+            padding-top: 16px;
+            font-size: 40px;
+            cursor: pointer;
+            color: rgb(233, 221, 232);
+        }
+        .item-social a {
+            cursor: pointer;
+            color: rgb(233, 221, 232);
+        }
+
+        h4 {
+            color: rgb(233, 221, 232);
+            font-size: 16px;
+            text-transform: uppercase;
+            text-decoration: underline 2px rgb(233, 221, 232) solid;
+        }
+    }
+    .copy {
+        background-color: rgb(99, 70, 95);
+        text-align: center !important;
+        color: rgb(233, 221, 232);
+        font-size: 9px;
+        padding: 5px;
+    }
+
+    /*sub-menu btn*/
+
+    .footer-link {
+        color: rgb(233, 221, 232);
+        text-transform: uppercase;
+        position: relative;
+
+        cursor: pointer;
+    }
+
+    .footer-submenu {
+        background: rgb(99, 70, 95);
+        position: absolute;
+        left: 441px;
+        bottom: -158vh;
+    }
+
+    .footer-submenu-item {
+        padding: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    footer {
+        .footer {
+            background: rgba(91, 54, 116, 0.705);
+            display: flex;
+            justify-content: space-around;
+            align-items: start;
+            padding: 20px;
+            flex-direction: row;
+            gap: 16px;
+        }
+        .footer__seccion {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footer__seccion {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .copy {
+            font-size: 13px;
+        }
+    }
+}

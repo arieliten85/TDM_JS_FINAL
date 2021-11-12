@@ -1,0 +1,385 @@
+.fondo {
+  background-color: #c9cbd0;
+}
+
+// IMAGEN PRINCIPAL
+
+.portada-principal_productos {
+  background: url(../img/portadas/img-02.jpg) center no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo-NuestrosProductos_sm {
+  font-size: 35px;
+
+  font-family: $txt-Principal;
+  color: $color-principal;
+  text-align: center;
+  margin: 20px;
+  padding: 16px;
+
+  border-radius: 20px;
+
+  background: #bdb8bb;
+}
+
+.titulo-portada_productos {
+  font-family: $txt-Principal;
+  font-size: 7.5vh;
+  color: rgb(235, 28, 28);
+  animation-name: mover;
+  animation-duration: 2s;
+  animation-iteration-count: inherit;
+  padding-top: 3rem;
+  padding-left: 7%;
+}
+//  FIANL IMAGEN PRINCIPAL
+
+// BREADCRUMBS (RUTA SITIO)
+
+.breadcrumbs {
+  //   padding: 20px 20px;
+  font-family: sans-serif;
+  font-size: 18px;
+
+  .breadcrumbs__item {
+    display: inline-block;
+  }
+
+  .breadcrumbs__item:not(:last-of-type)::after {
+    content: "\203a";
+    margin: 0 5px;
+    color: rgb(138, 136, 136);
+  }
+
+  .breadcrumbs_link {
+    text-decoration: none;
+    color: rgb(138, 136, 136);
+  }
+
+  .breadcrumbs_link:hover {
+    text-decoration: underline;
+  }
+
+  .breadcrumbs_link-active {
+    color: rgb(206, 84, 169);
+    font-weight: 700;
+  }
+}
+// FINAL BREADCRUMBS (RUTA SITIO)
+
+// SECCION CATEGORIAS
+hr {
+  background-color: $color-principal;
+  height: 8px;
+  border: none;
+  // margin-top: 25px;
+}
+
+.icono-menu_categorias {
+  padding: 16px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: right;
+  background-color: $color-principal;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2em;
+  padding: 16px;
+  padding-top: 40px;
+}
+
+.contenedor-search {
+  display: flex;
+  justify-content: left;
+  gap: 16px;
+
+  input {
+    border: none;
+    border-radius: 10px;
+    background-color: #f1ebf7;
+    width: 100%;
+  }
+}
+
+.lupa {
+  color: #ae5f9a;
+}
+
+.nav-sm_catalogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-family: $txt-parrafo;
+  position: relative;
+  width: 100%;
+
+  h3 {
+    font-size: 32px;
+    color: #ffbeef;
+    padding: 26px 15px;
+    font-family: $txt-Principal;
+  }
+
+  span {
+    font-size: 30px;
+    cursor: pointer;
+  }
+}
+
+.nav-md_catalogo {
+  display: none;
+}
+
+// MENU CATALOGO
+.cont-menu {
+  background-color: #a187bb;
+  width: 60%;
+  text-align: left;
+  position: absolute;
+  top: -114px;
+  right: 0;
+  transition: all 0.5s ease;
+
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding: 40px 20px;
+
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.active {
+  
+  right: -100%;
+}
+
+
+.navCatalogo {
+  padding-top: 20px;
+}
+
+
+.opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.5 ease;
+  position: absolute;
+}
+
+.cont-menu ul li a {
+  // text-transform: uppercase;
+  color: white;
+  display: block;
+  font-size: 25px;
+  padding: 16px;
+  cursor: pointer;
+  font-family: $txt-Principal;
+}
+
+.cont-menu ul li a:hover {
+  background-color: #b7549d;
+}
+
+// FIN MENU CATALOGO
+.titulo-NuestrosProductos {
+  display: none;
+}
+
+@media (min-width: 520px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 16px;
+    padding: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  //   .caja-flex {
+  //     display: flex;
+  //     flex-direction: column;
+  //     align-items: center;
+
+  //     overflow: hidden;
+  //     padding: 16px;
+  //   }
+
+  .caja-nav {
+    width: 200px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 40px;
+    padding: 16px;
+    padding-top: 40px;
+  }
+
+  .portada-principal_productos {
+    height: 350px;
+  }
+  .titulo-portada_productos {
+    padding-top: 4rem;
+  }
+
+  .breadcrumbs {
+    font-size: 22px;
+
+    margin-left: 10px;
+  }
+ 
+
+  .cont-menu {
+    background-color: #a187bb;
+    width: 34%;
+    text-align: left;
+    position: absolute;
+    top: -114px;
+    right: 0;
+    transition: all 0.5s ease;
+  
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding: 40px 20px;
+  
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .active {
+    
+    right: -100%;
+  }
+  
+}
+
+@media (min-width: 1280px) {
+  .portada-principal_productos {
+    height: 450px;
+  }
+
+  .portada-principal_productos {
+    padding-top: 2rem;
+    padding-left: 2%;
+  }
+
+  .titulo-portada_productos {
+    padding-top: 10rem;
+    padding-left: 10%;
+    font-size: 13.5vh;
+  }
+  hr {
+    background-color: $color-principal;
+
+    border: none;
+    // margin-top: 25px;
+  }
+
+  .breadcrumbs {
+    margin-left: 30px;
+    padding: 0;
+    // padding-top: 30px;
+  }
+
+  .breadcrumbs_link {
+    font-size: 20px;
+  }
+
+  .titulo-NuestrosProductos {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    font-family: "Dancing Script", cursive;
+
+    color: #f7edf3;
+
+    background: #923b7cee;
+  }
+
+  .caja-nav {
+    width: 200px;
+    height: 400px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    padding: 16px;
+    padding-top: 60px;
+  }
+
+  .nav-sm_catalogo {
+    display: none;
+  }
+
+  .nav-md_catalogo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    background-color: #bdbcbd;
+    margin: 20px;
+
+    // left: 140px;
+
+    border-radius: 20px;
+
+    h3 {
+      font-size: 40px;
+      color: rgb(126, 27, 85);
+
+      font-family: $txt-Principal;
+      text-decoration: underline 2px rgba(151, 145, 145, 0.438);
+    }
+
+    ul li:hover {
+      background-color: #b35099cc;
+    }
+
+    ul li a:hover {
+      color: rgb(252, 247, 250);
+    }
+
+    ul li a {
+      line-height: 90px;
+      color: white;
+      font-size: 30px;
+      padding: 16px;
+      cursor: pointer;
+      font-family: $txt-Principal;
+    }
+  }
+
+  #menu-2 {
+    display: none;
+  }
+
+  .icono-menu_categorias {
+    display: none;
+  }
+
+  .navCatalogo {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .titulo-NuestrosProductos_sm {
+    display: none;
+  }
+}

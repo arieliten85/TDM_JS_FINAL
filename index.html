@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--seo-->
+    <meta
+      name="keywords"
+      content="Dulce, Tortas, Cumpleaños,Pasteleria zona sur cupcake,"
+    />
+    <meta
+      name="description"
+      content="La mejor pasteleria esta en zona sur,acompañandote en cada momento"
+    />
+    <meta name="author" content="Ariel Ferencak" />
+    <meta name="copyright" content="TodoDulceMary" />
+    <link
+      rel="shortcut icon"
+      href="/img/icono seo/cup-cake.png"
+      type="image/png"
+    />
+    <!--seo-->
+    <script
+      src="https://kit.fontawesome.com/98db0d0688.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="./css/tailwind.min.css"
+      media="screen,projection"
+    />
+
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="./css/estilos.css"
+      media="screen,projection"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="css/estilos.css" />
+
+    <title>Inicio</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!--NAV-->
+      <nav class="nav nav-bg">
+        <div>
+          <a href="index.html" class="logo nav-link">TodoDulceMary</a>
+        </div>
+
+        <!-- MENU -->
+        <ul class="nav-menu menu-ctn">
+          <li class="nav-menu-item">
+            <a
+              href="index.html"
+              class="nav-menu-link nav-link nav-menu-link_active"
+              >inicio</a
+            >
+          </li>
+
+          <li class="nav-menu-item">
+            <a href="./page/productos.html" class="nav-menu-link nav-link"
+              >productos</a
+            >
+          </li>
+
+          <li class="nav-menu-item">
+            <a href="./page/contactos.html" class="nav-menu-link nav-link"
+              >contactos</a
+            >
+          </li>
+
+          <li class="nav-menu-item">
+            <a href="./page/nosotros.html" class="nav-menu-link nav-link"
+              >nosotros</a
+            >
+          </li>
+        </ul>
+        <!-- FIN MENU -->
+
+        <div class="cnt-carritoYbars">
+          <!-- Carrito -->
+          <div>
+            <i
+              class="fas fa-shopping-cart icono-carrito"
+              id="icono-carrito2"
+            ></i>
+
+            <div id="carrito" class="contenedorCarrito">
+              <table id="lista-carrito" class="ContenedorCarrito">
+                <thead>
+                  <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                  </tr>
+                </thead>
+                <tbody class="tbody"></tbody>
+              </table>
+
+              <div class="contendor-total">
+                <div class="contendor-total_Precio">
+                  <h3 class="itemCartTotal">Total: 0</h3>
+                </div>
+                <div class="col d-flex justify-content-end">
+                  <button class="btn-comprar">COMPRAR</button>
+                </div>
+              </div>
+              <div class="mensajeCompra"></div>
+            </div>
+          </div>
+          <!-- Carrito -->
+          <!-- ICONO HAMBURGUEZA -->
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+          <!-- FIN HAMBURGUEZA -->
+        </div>
+      </nav>
+      <!--FIN NAV-->
+    </header>
+    <!-- HEADER -->
+
+    <!--PORTADA-->
+    <div class="contenedor-portada">
+      <div class="portada-principal">
+        <h1 class="titulo-portada">
+          Estas tentado de <br />algo <span>Dulce?</span>
+        </h1>
+        <div class="item-gps">
+          <i class="fas fa-map-marker-alt gps"></i>
+          <a
+            href="https://www.google.com.ar/maps/place/Rio+de+Janeiro+2678,+B1824+JUB,
+                +Provincia+de+Buenos+Aires/@-34.7020045,-58.4067509,17z/data=!3m1!4b1!4m5!3m4
+                !1s0x95bccce2c265de55:0xfbe9ad9b7ce930a6!8m2!3d-34.7020089!4d-58.4045622"
+            class="info"
+            >Ubicacion</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- FIN PORTADA -->
+
+    <!--MENU-->
+    <main>
+      <section class="bg-gris">
+        <!-- destacados -->
+        <div class="grilla-contenedor">
+          <div class="item-img caja1 caja">
+            <a class="item-link" href="./page/productos.html">
+              <h3 class="item-titulo sombra">Macarrons</h3>
+            </a>
+          </div>
+          <div class="item-img caja2 caja">
+            <a class="item-link" href="./page/productos.html">
+              <h3 class="item-titulo sombra">Cookies</h3>
+            </a>
+          </div>
+          <div class="item-img caja3 caja">
+            <a class="item-link" href="./page/productos.html">
+              <h3 class="item-titulo sombra">CupCake</h3>
+            </a>
+          </div>
+        </div>
+
+        <div class="contenedor-btn">
+          <a class="btn" href="page/productos.html">Ver productos</a>
+        </div>
+
+        <!-- presentacion -->
+        <div class="presentacion">
+          <div class="presentacion__contenedor">
+            <div class="img__contenedor">
+              <img src="./img/circulos/calidad.jpg" />
+            </div>
+
+            <div class="info__contenedor">
+              <h3>calidad</h3>
+              <p>
+                Trabajamos con las mejores materias primas y la mejor
+                capacitación constante,ofrecemos productos nobles y sabor
+                inigualable
+              </p>
+            </div>
+          </div>
+
+          <div class="presentacion__contenedor">
+            <div class="img__contenedor">
+              <img src="./img/circulos/experiencia.jpg" />
+            </div>
+
+            <div class="info__contenedor">
+              <h3>Experiencia</h3>
+              <p>
+                Más de 30 años de dando lo mejos en cada día satisfaciendo la
+                demanda y estando presente en cada momento de sus vidas
+              </p>
+            </div>
+          </div>
+
+          <div class="presentacion__contenedor">
+            <div class="img__contenedor">
+              <img src="./img/circulos/tendencia.jpg " />
+            </div>
+
+            <div class="info__contenedor">
+              <h3>tendencia</h3>
+              <p>
+                Desarollamos nuevos productos constantemente alineado a las
+                nuevas tendencias del mercado
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- presentacion -->
+      </section>
+    </main>
+    <!-- FIN MENU -->
+
+    <!--FOOTER -->
+    <footer>
+      <div class="footer">
+        <div>
+          <h4>navegacion</h4>
+
+          <div class="footer__seccion">
+            <ul class="footer-nav">
+              <li class="footer-nav-item footer-item-active">
+                <a href="index.html">inicio</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="page/productos.html">productos</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="page/contactos.html">contactos</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="page/nosotros.html">nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h4>metodo de pago</h4>
+          <div class="footer__seccion">
+            <ol>
+              <li>
+                <i class="fab fa-cc-mastercard card-credit"></i>
+              </li>
+              <li>
+                <i class="fab fa-cc-visa card-credit"></i>
+              </li>
+              <li>
+                <i class="fab fa-cc-amex card-credit"></i>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div>
+          <h4>seguinos en las redes</h4>
+          <div class="footer__seccion redes__footer">
+            <div class="item-social">
+              <a href="https://es-la.facebook.com/"
+                ><i class="fab fa-facebook-square icon-social"></i
+              ></a>
+            </div>
+
+            <div class="item-social">
+              <a href="https://www.instagram.com/?hl=es-la"
+                ><i class="fab fa-instagram icon-social"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="copy">
+        Copyright ® 2021- TODODULCEMARI.COM - Todos los derechos reservados.
+      </p>
+    </footer>
+    <!--FOOTER -->
+
+    <!-- JQYERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <!-- JS -->
+
+    <!-- JS -->
+    <script src="./js/renderProductos.js"></script>
+    <script src="./js/formulario.js"></script>
+
+    <!-- BOTONES -->
+    <script src="./js/hamburgesa.js"></script>
+    <script src="./js/BtnCategoria.js"></script>
+    <script src="./js/btnCarrito.js"></script>
+
+    <script src="./js/btnComprar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+
+
+@mixin grid {
+    .contenedor-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        justify-items: center;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 2em;
+        padding: 16px;
+        background: #8080800f;
+    
+        border: rgb(104, 113, 238) solid 3px;
+        
+    }
+}
+
+
+
+.flexHorizontal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

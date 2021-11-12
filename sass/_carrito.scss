@@ -1,0 +1,180 @@
+header {
+    // HEADER
+    .mensajeCompra {
+        width: 90%;
+        height: 50px;
+        margin: auto;
+        
+    }
+
+    .icono-carrito {
+        color: white;
+        font-size: 22px;
+        padding: 20px;
+        cursor: pointer;
+        display: block;
+    }
+
+    .ContenedorCarrito {
+        width: 90%;
+        height: 50px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .icono-carrito:hover {
+        background: rgb(187, 149, 226);
+        border-radius: 100%;
+        transition: 0.5s;
+    }
+
+    #carrito {
+        top: 79px;
+        margin: 0;
+        position: fixed;
+        width: 100%;
+        // padding: 20px 0;
+        height: auto;
+        overflow-y: auto;
+        right: -100%;
+        transition: 0.3s;
+        background-color: rgb(169, 161, 161);
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    #carrito.activo {
+        right: 0;
+    }
+    // FIN HEADER
+
+    table h6 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    th,
+    td {
+        padding: 5px;
+        text-align: center;
+        border-bottom: 1px solid #847f7f;
+    }
+    .table__productos {
+        width: 5rem;
+        height: 7rem;
+    }
+
+    .table__productos > img {
+        object-fit: cover;
+        border-radius: 6px;
+        // margin-right: 20px;
+
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .table__cantidad > input {
+        width: 40px;
+        border: none;
+        outline: 0;
+        font-size: 16px;
+        font-weight: 700;
+
+        background: rgb(222, 223, 220);
+    }
+
+    .contendor-total_Precio {
+        background: #c8c1c1;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contendor-total {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        margin-top: 16px;
+        gap: 15px;
+        height: 70px;
+        margin: auto;
+        padding-top: 20px;
+    }
+}
+@media (min-width: 768px) {
+    header {
+        .ContenedorCarrito {
+            width: 90%;
+            height: auto;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        #carrito {
+            top: 79px;
+            margin: 0;
+            position: fixed;
+            width: 65%;
+            // padding: 20px 0;
+            height: auto;
+            overflow-y: auto;
+            right: -100%;
+            transition: 0.3s;
+        }
+
+        #carrito.activo {
+            right: 0;
+        }
+
+        .contendor-total {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: last baseline;
+            justify-content: center;
+            width: 80%;
+            margin-top: 16px;
+            gap: 15px;
+            height: 70px;
+            margin: auto;
+            
+        }
+    }
+}
+@media (min-width: 1280px) {
+    header {
+        .ContenedorCarrito {
+            width: 90%;
+            height: auto;
+            margin: auto;
+            margin-top: 20px;
+        }
+        #carrito {
+            top: 79px;
+            margin: 0;
+            position: fixed;
+            width: 40%;
+            // padding: 20px 0;
+            height: auto;
+            overflow-y: auto;
+            right: -100%;
+            transition: 0.3s;
+        }
+
+        #carrito.activo {
+            right: 0;
+            top: 93px;
+        }
+
+        .contendor-total {
+            width: 55%;
+            height: 80px;
+        }
+
+        .contendor-total {
+            // margin: 50px 20px;
+        }
+    }
+}

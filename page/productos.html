@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--seo-->
+    <meta
+      name="keywords"
+      content="Dulce, Tortas, Cumpleaños,Pasteleria zona sur cupcake,"
+    />
+    <meta
+      name="description"
+      content="La mejor pateleria esta en zona sur,acompañandote en cada momento"
+    />
+    <meta name="author" content="Ariel Ferencak" />
+    <meta name="copyright" content="TodoDulceMary" />
+    <link
+      rel="shortcut icon"
+      href="/img/icono seo/cup-cake.png"
+      type="image/png"
+    />
+    <!--seo-->
+
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../css/tailwind.min.css"
+      media="screen,projection"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/98db0d0688.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/estilos.css" />
+
+    <title>Productos</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!--NAV-->
+      <nav class="nav nav-bg">
+        <div>
+          <a href="../index.html" class="logo nav-link">TodoDulceMary</a>
+        </div>
+
+        <!-- MENU -->
+        <ul class="nav-menu menu-ctn">
+          <li class="nav-menu-item">
+            <a href="../index.html" class="nav-menu-link nav-link">inicio</a>
+          </li>
+
+          <li class="nav-menu-item">
+            <a
+              href="./productos.html"
+              class="nav-menu-link nav-link nav-menu-link_active"
+              >productos</a
+            >
+          </li>
+
+          <li class="nav-menu-item">
+            <a href="./contactos.html" class="nav-menu-link nav-link"
+              >contactos</a
+            >
+          </li>
+
+          <li class="nav-menu-item">
+            <a href="./nosotros.html" class="nav-menu-link nav-link"
+              >nosotros</a
+            >
+          </li>
+        </ul>
+        <!-- FIN MENU -->
+
+        <div class="cnt-carritoYbars">
+          <!-- Carrito -->
+          <div>
+            <i
+              class="fas fa-shopping-cart icono-carrito"
+              id="icono-carrito2"
+            ></i>
+
+            <div id="carrito" class="contenedorCarrito">
+              <table id="lista-carrito" class="ContenedorCarrito">
+                <thead>
+                  <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                  </tr>
+                </thead>
+                <tbody class="tbody"></tbody>
+              </table>
+
+              <div class="contendor-total">
+                <div class="contendor-total_Precio">
+                  <h3 class="itemCartTotal">Total: 0</h3>
+                </div>
+                <div class="col d-flex justify-content-end">
+                  <button class="btn-comprar">COMPRAR</button>
+                </div>
+              </div>
+              <div class="mensajeCompra"></div>
+            </div>
+          </div>
+          <!-- Carrito -->
+          <!-- ICONO HAMBURGUEZA -->
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+          <!-- FIN HAMBURGUEZA -->
+        </div>
+      </nav>
+      <!--FIN NAV-->
+    </header>
+    <!-- HEADER -->
+
+    <div class="portada-principal_productos">
+      <!-- <div>
+            <h1 class="titulo-portada_nosotros">Así empezo todo...</span> </h1>   
+        </div> -->
+    </div>
+
+    <!-- RUTA DE SITIO -->
+    <div>
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs__item">
+          <a href="../index.html" class="breadcrumbs_link">inicio</a>
+        </li>
+        <li class="breadcrumbs__item">
+          <a
+            href="./productos.html"
+            class="breadcrumbs_link breadcrumbs_link-active"
+            >Productos</a
+          >
+        </li>
+      </ul>
+    </div>
+    <!-- RUTA DE SITIO -->
+
+    <main>
+      <section class="fondo">
+        <h2 class="titulo-NuestrosProductos">Nuestros Productos</h2>
+
+        <!-- BOTON HAMBUGESA CATALOGO -->
+        <div class="icono-menu_categorias">
+          <span class="fas fa-bars" id="icono-menu"></span>
+        </div>
+        <!-- FIN BOTON HAMBUGESA CATALOGO -->
+        <h2 class="titulo-NuestrosProductos_sm">Productos Destacados</h2>
+        <div class="caja-flex">
+          <div class="nav-sm_catalogo">
+            <div class="cont-menu active" id="menu-2">
+              <h3>Categorías</h3>
+
+              <div class="contenedor-search">
+                <input type="search" id="search" name="search" />
+                <i class="fas fa-search lupa"></i>
+              </div>
+              <ul class="navCatalogo">
+                <li>
+                  <a
+                    class="productoLink categoriaItem"
+                    categoria="cookies"
+                    href="#"
+                    >Cookies</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="productoLink categoriaItem"
+                    categoria="cupcake"
+                    href="#"
+                    >Cupcake</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    class="productoLink categoriaItem"
+                    categoria="macarrons"
+                    href="#"
+                    >Macarrons</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    class="productoLink categoriaItem"
+                    categoria="tortas"
+                    href="#"
+                    >Tortas</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    class="productoLink categoriaItem"
+                    categoria="tartas"
+                    href="#"
+                    >Tartas</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="nav-md_catalogo">
+            <h3>Cátalogo</h3>
+
+            <!--  MENU ESCRITORIO -->
+            <ul class="flexHorizontal">
+              <li>
+                <a class="productoLink categoriaItem" categoria="cookies"
+                  >Cookies</a
+                >
+              </li>
+              <li>
+                <a class="productoLink categoriaItem" categoria="cupcake"
+                  >Cupcake</a
+                >
+              </li>
+
+              <li>
+                <a class="productoLink categoriaItem" categoria="macarrons"
+                  >Macarrons</a
+                >
+              </li>
+
+              <li>
+                <a class="productoLink categoriaItem" categoria="tortas"
+                  >Tortas</a
+                >
+              </li>
+
+              <li>
+                <a class="productoLink categoriaItem" categoria="tartas"
+                  >Tartas</a
+                >
+              </li>
+            </ul>
+            <!-- FIN  MENU ESCRITORIO -->
+
+            <div class="contenedor-search">
+              <input type="search" id="search" name="search" />
+              <i class="fas fa-search lupa"></i>
+            </div>
+          </div>
+
+          <!-- CARDS CONTENEDOR -->
+          <div id="divContenedor" class="grid listaCategoria"></div>
+        </div>
+      </section>
+    </main>
+
+    <!--FOOTER -->
+    <footer>
+      <div class="footer">
+        <div>
+          <h4>navegacion</h4>
+
+          <div class="footer__seccion">
+            <ul class="footer-nav">
+              <li class="footer-nav-item">
+                <a href="../index.html">inicio</a>
+              </li>
+
+              <li class="footer-nav-item footer-item-active">
+                <a href="./productos.html">productos</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="./contactos.html">contactos</a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="./nosotros.html">nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h4>metodo de pago</h4>
+          <div class="footer__seccion">
+            <ol>
+              <li>
+                <i class="fab fa-cc-mastercard card-credit"></i>
+              </li>
+              <li>
+                <i class="fab fa-cc-visa card-credit"></i>
+              </li>
+              <li>
+                <i class="fab fa-cc-amex card-credit"></i>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div>
+          <h4>seguinos en las redes</h4>
+          <div class="footer__seccion redes__footer">
+            <div class="item-social">
+              <a href="https://es-la.facebook.com/"
+                ><i class="fab fa-facebook-square icon-social"></i
+              ></a>
+            </div>
+
+            <div class="item-social">
+              <a href="https://www.instagram.com/?hl=es-la"
+                ><i class="fab fa-instagram icon-social"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="copy">
+        Copyright ® 2021- TODODULCEMARI.COM - Todos los derechos reservados.
+      </p>
+    </footer>
+    <!--FOOTER -->
+
+    <!-- JQYERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <!-- JS -->
+
+    <!-- JS -->
+    <script src="../js/renderProductos.js"></script>
+    <script src="../js/formulario.js"></script>
+
+    <!-- BOTONES -->
+    <script src="../js/hamburgesa.js"></script>
+    <script src="../js/BtnCategoria.js"></script>
+    <script src="../js/btnCarrito.js"></script>
+
+    <script src="../js/btnComprar.js"></script>
+  </body>
+</html>

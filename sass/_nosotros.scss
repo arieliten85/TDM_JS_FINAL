@@ -1,0 +1,68 @@
+.portada-principal_nosotros{
+    background: url(../img/portadas/img-04.jpg) center no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-portada_nosotros {
+    font-family: $txt-Principal;
+    font-size: 7.5vh;
+    color: rgb(235, 28, 28);
+    animation-name: mover;
+    animation-duration: 2s;
+    animation-iteration-count: inherit;
+    padding-top: 3rem;
+    padding-left: 7%;
+}
+
+.nosotros {
+    padding: 7px 20px 20px;
+    text-align: center;
+
+    h2 {
+        font-size: 50px;
+        font-family: $txt-Principal;
+        text-align: center;
+        padding: 20px;
+    }
+
+    p {
+        font-family: $txt-parrafo;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media (min-width: 520px) {
+    .portada-principal_nosotros {
+        height: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .portada-principal_nosotros {
+        height: 350px;
+    }
+    .titulo-portada_nosotros {
+        padding-top: 4rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .portada-principal_nosotros {
+        height: 450px;
+    }
+
+    .portada-principal_nosotros {
+        padding-top: 2rem;
+        padding-left: 2%;
+    }
+
+    .titulo-portada_nosotros {
+        padding-top: 10rem;
+        padding-left: 10%;
+        font-size: 13.5vh;
+    }
+}

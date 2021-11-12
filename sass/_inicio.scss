@@ -1,0 +1,208 @@
+.bg-gris {
+    background-color: #fafafb;
+}
+
+.grilla-contenedor {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 16px;
+    padding: 16px;
+
+    .caja1 {
+        background: url(../img/inicio/img-01.jpg) center no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        height: 300px;
+        grid-area: area1;
+        overflow: hidden;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .caja2 {
+        background: url(../img/inicio/img-02.jpg) center no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        height: 300px;
+        grid-area: area2;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .caja3 {
+        background: url(../img/inicio/img-03.jpg) center no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        height: 300px;
+        grid-area: area3;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .caja {
+        overflow: hidden;
+        display: flex;
+        align-items: flex-end;
+        cursor: pointer;
+    }
+    // .caja:hover {
+    //     transform: scale(1.009);
+    //     transition: all 400ms ease;
+    // }
+
+    .item-titulo {
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .item-titulo:hover {
+        color: rgb(240, 172, 235);
+        transition: 0.5s;
+    }
+
+    .sombra {
+        background: rgba(2, 2, 2, 0.644);
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .sombra:hover {
+        background: rgba(14, 13, 13, 0.781);
+    }
+    .item-link {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+// img {
+//     width: 20%;
+// }
+@media (min-width: 520px) {
+    .presentacion {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 380px;
+
+        padding: 2rem 2rem;
+    }
+    .presentacion__contenedor {
+        padding: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .grilla-contenedor {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 200px;
+        grid-template-areas: " area1 area3" " area1 area2";
+        justify-content: end;
+        gap: 16px;
+        height: 500px;
+        padding: 3rem;
+
+        .caja1 {
+            max-width: 100%;
+            height: auto;
+            grid-area: area1;
+        }
+        .caja2 {
+            max-width: 100%;
+            height: auto;
+            grid-area: area2;
+        }
+        .caja3 {
+            max-width: 100%;
+            height: auto;
+            grid-area: area3;
+        }
+        .item-titulo {
+            font-size: 20px;
+        }
+        
+    }
+}
+
+/*PRESENTACION*/
+.presentacion {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    .img__contenedor {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .img__contenedor img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .info__contenedor {
+        text-align: center;
+
+        padding: 10px;
+    }
+
+    .info__contenedor h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .info__contenedor p {
+        color: black;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .presentacion {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 2rem 2rem;
+    }
+    .presentacion__contenedor {
+        width: 33.3%;
+        padding: 16px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .grilla-contenedor {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 285px;
+        grid-template-areas: " area1 area3" " area1 area2";
+        justify-content: end;
+        gap: 16px;
+        height: 630px;
+        padding: 2rem;
+        max-width: 84%;
+        margin: auto;
+    }
+    .presentacion {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 2rem 7rem;
+    }
+    .presentacion__contenedor {
+        width: 33.3%;
+        padding: 16px;
+    }
+
+    .img__contenedor {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+}

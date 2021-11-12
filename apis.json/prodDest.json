@@ -1,0 +1,78 @@
+{
+    "productos": [
+        {
+            "imagen": "../img/productos/cookies/img-01.jpg",
+            "titulo": "Cookies de Azucar",
+            "precio": "300",
+            "id": "01",
+            "categoria": "cookies"
+        },
+        {
+            "imagen": "../img/productos/cookies/img-02.jpg",
+            "titulo": "Cookies Navideñas",
+            "precio": "200",
+            "id": "02",
+            "categoria": "cookies"
+        },
+
+        {
+            "imagen": "../img/productos/cupcake/img-01.jpg",
+            "titulo": "Cupcake Oreo",
+            "precio": "500",
+            "id": "01",
+            "categoria": "cupcake"
+        },
+        {
+            "imagen": "../img/productos/cupcake/img-02.jpg",
+            "titulo": "Cupcake de Frutilla",
+            "precio": "300",
+            "id": "02",
+            "categoria": "cupcake"
+        },
+
+        {
+            "imagen": "../img/productos/macarrons/img-01.jpg",
+            "titulo": "Macarrons Verdes",
+            "precio": "500",
+            "id": "01",
+            "categoria": "macarrons"
+        },
+        {
+            "imagen": "../img/productos/macarrons/img-02.jpg",
+            "titulo": "Macarrons de Colores",
+            "precio": "300",
+            "id": "02",
+            "categoria": "macarrons"
+        },
+        {
+            "imagen": "../img/productos/macarrons/img-03.jpg",
+            "titulo": "Macarrons 1/2 Docena",
+            "precio": "500",
+            "id": "03",
+            "categoria": "macarrons"
+        },
+        {
+            "imagen": "../img/productos/macarrons/img-04.jpg",
+            "titulo": "Macarrons 1/2 Docena",
+            "precio": "300",
+            "id": "04",
+            "categoria": "macarrons"
+        },
+
+        {
+            "imagen": "../img/productos/tortas intanfiles/img-01.jpg",
+            "titulo": "Torta Primer añito",
+            "precio": "500",
+            "id": "01",
+            "categoria": "tortas"
+        },
+        {
+            "imagen": "../img/productos/tortas intanfiles/img-02.jpg",
+            "titulo": "Torta de Tematica",
+            "precio": "300",
+            "id": "02",
+            "categoria": "tortas"
+        }
+    ]
+    
+}

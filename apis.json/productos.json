@@ -1,0 +1,315 @@
+{
+    "productos": [
+        {
+            "imagen": "../img/productos/cookies/img-01.jpg",
+            "titulo": "Cookies de Azucar",
+            "precio": "300",
+            "id": "01",
+            "categoria": "cookies"
+        },
+        {
+            "imagen": "../img/productos/cookies/img-02.jpg",
+            "titulo": "Cookies Navideñas",
+            "precio": "200",
+            "id": "02",
+            "categoria": "cookies"
+        },
+        {
+            "imagen": "../img/productos/cookies/img-03.jpg",
+            "titulo": "Cookies de Casamiento",
+            "precio": "500",
+            "id": "03",
+            "categoria": "cookies"
+        },
+        {
+            "imagen": "../img/productos/cookies/img-04.jpg",
+            "titulo": "Cookies de Bautismo",
+            "precio": "300",
+            "id": "04",
+            "categoria": "cookies"
+        },
+        {
+            "imagen": "../img/productos/cookies/img-05.jpg",
+            "titulo": "Cookies Casamiento",
+            "precio": "200",
+            "id": "05",
+            "categoria": "cookies"
+        },
+        {
+            "imagen": "../img/productos/cookies/img-06.jpg",
+            "titulo": "Cookis Especiales",
+            "precio": "500",
+            "id": "06",
+            "categoria": "cookies"
+        },
+        {
+            "imagen": "../img/productos/cookies/img-07.jpg",
+            "titulo": "Cookis de Pascuas",
+            "precio": "300",
+            "id": "07",
+            "categoria": "cookies"
+        },
+        {
+            "imagen": "../img/productos/cookies/img-08.jpg",
+            "titulo": "Cookis de Halloween",
+            "precio": "300",
+            "id": "08",
+            "categoria": "cookies"
+        },
+
+
+
+
+
+
+
+        {
+            "imagen": "../img/productos/cupcake/img-01.jpg",
+            "titulo": "Cupcake Oreo",
+            "precio": "500",
+            "id": "01",
+            "categoria": "cupcake"
+        },
+        {
+            "imagen": "../img/productos/cupcake/img-02.jpg",
+            "titulo": "Cupcake de Frutilla",
+            "precio": "300",
+            "id": "02",
+            "categoria": "cupcake"
+        },
+        {
+            "imagen": "../img/productos/cupcake/img-03.jpg",
+            "titulo": "Cupcake Primavera",
+            "precio": "500",
+            "id": "03",
+            "categoria": "cupcake"
+        },
+        {
+            "imagen": "../img/productos/cupcake/img-04.jpg",
+            "titulo": "Cupcake de Fiesta",
+            "precio": "300",
+            "id": "04",
+            "categoria": "cupcake"
+        },
+        {
+            "imagen": "../img/productos/cupcake/img-05.jpg",
+            "titulo": "Cupcake de Vainilla",
+            "precio": "500",
+            "id": "05",
+            "categoria": "cupcake"
+        },
+        {
+            "imagen": "../img/productos/cupcake/img-06.jpg",
+            "titulo": "Cupcake de Arandanos",
+            "precio": "300",
+            "id": "06",
+            "categoria": "cupcake"
+        },
+        {
+            "imagen": "../img/productos/cupcake/img-07.jpg",
+            "titulo": "Cupcake de Miel y canela",
+            "precio": "500",
+            "id": "07",
+            "categoria": "cupcake"
+        },
+        {
+            "imagen": "../img/productos/cupcake/img-08.jpg",
+            "titulo": "Cupcake de Oreo con Crema",
+            "precio": "300",
+            "id": "08",
+            "categoria": "cupcake"
+        },
+
+
+
+
+
+
+        {
+            "imagen": "../img/productos/macarrons/img-01.jpg",
+            "titulo": "Macarrons Verdes",
+            "precio": "500",
+            "id": "01",
+            "categoria": "macarrons"
+        },
+        {
+            "imagen": "../img/productos/macarrons/img-02.jpg",
+            "titulo": "Macarrons de Colores",
+            "precio": "300",
+            "id": "02",
+            "categoria": "macarrons"
+        },
+        {
+            "imagen": "../img/productos/macarrons/img-03.jpg",
+            "titulo": "Macarrons 1/2 Docena",
+            "precio": "500",
+            "id": "03",
+            "categoria": "macarrons"
+        },
+        {
+            "imagen": "../img/productos/macarrons/img-04.jpg",
+            "titulo": "Macarrons 1/2 Docena",
+            "precio": "300",
+            "id": "04",
+            "categoria": "macarrons"
+        },
+        {
+            "imagen": "../img/productos/macarrons/img-05.jpg",
+            "titulo": "Macarrons Violetas",
+            "precio": "500",
+            "id": "05",
+            "categoria": "macarrons"
+        },
+        {
+            "imagen": "../img/productos/macarrons/img-06.jpg",
+            "titulo": "Macarrons de Colores",
+            "precio": "300",
+            "id": "06",
+            "categoria": "macarrons"
+        },
+        {
+            "imagen": "../img/productos/macarrons/img-07.jpg",
+            "titulo": "Macarrons Rosas",
+            "precio": "500",
+            "id": "07",
+            "categoria": "macarrons"
+        },
+        {
+            "imagen": "../img/productos/macarrons/img-08.jpg",
+            "titulo": "Macarrons Minis",
+            "precio": "300",
+            "id": "08",
+            "categoria": "macarrons"
+        },
+
+
+
+
+
+
+        {
+            "imagen": "../img/productos/tortas intanfiles/img-01.jpg",
+            "titulo": "Torta Primer añito",
+            "precio": "500",
+            "id": "01",
+            "categoria": "tortas"
+        },
+        {
+            "imagen": "../img/productos/tortas intanfiles/img-02.jpg",
+            "titulo": "Torta de Tematica",
+            "precio": "300",
+            "id": "02",
+            "categoria": "tortas"
+        },
+        {
+            "imagen": "../img/productos/tortas intanfiles/img-03.jpg",
+            "titulo": "Torta infantil",
+            "precio": "500",
+            "id": "03",
+            "categoria": "tortas"
+        },
+        {
+            "imagen": "../img/productos/tortas intanfiles/img-04.jpg",
+            "titulo": "Torta Castillo",
+            "precio": "300",
+            "id": "04",
+            "categoria": "tortas"
+        },
+        {
+            "imagen": "../img/productos/tortas intanfiles/img-05.jpg",
+            "titulo": "Torta Unicornio",
+            "precio": "500",
+            "id": "05",
+            "categoria": "tortas"
+        },
+        {
+            "imagen": "../img/productos/tortas intanfiles/img-06.jpg",
+            "titulo": "Torta Unicornio ArcoIris",
+            "precio": "300",
+            "id": "06",
+            "categoria": "tortas"
+        },
+        {
+            "imagen": "../img/productos/tortas intanfiles/img-07.jpg",
+            "titulo": "Torta Animales",
+            "precio": "500",
+            "id": "07",
+            "categoria": "tortas"
+        },
+        {
+            "imagen": "../img/productos/tortas intanfiles/img-08.jpg",
+            "titulo": "Torta Cumpleaños",
+            "precio": "300",
+            "id": "08",
+            "categoria": "tortas"
+        },
+
+
+        
+
+
+
+        
+        {
+            "imagen": "../img/productos/tartas/img-01.jpg",
+            "titulo": "Tarta Frutos Rojos",
+            "precio": "500",
+            "id": "01",
+            "categoria": "tartas"
+        },
+        {
+            "imagen": "../img/productos/tartas/img-02.jpg",
+            "titulo": "Lemon Pie",
+            "precio": "300",
+            "id": "02",
+            "categoria": "tartas"
+        },
+        {
+            "imagen": "../img/productos/tartas/img-03.jpg",
+            "titulo": "Torta Frutos del Bosque",
+            "precio": "500",
+            "id": "03",
+            "categoria": "tartas"
+        },
+        {
+            "imagen": "../img/productos/tartas/img-04.jpg",
+            "titulo": "Torta Vainilla",
+            "precio": "300",
+            "id": "04",
+            "categoria": "tartas"
+        },
+        {
+            "imagen": "../img/productos/tartas/img-05.jpg",
+            "titulo": "Torta Brownie",
+            "precio": "500",
+            "id": "05",
+            "categoria": "tartas"
+        },
+        {
+            "imagen": "../img/productos/tartas/img-06.jpg",
+            "titulo": "Torta de Coco ",
+            "precio": "300",
+            "id": "06",
+            "categoria": "tartas"
+        },
+        {
+            "imagen": "../img/productos/tartas/img-07.jpg",
+            "titulo": "Torta Chocolate",
+            "precio": "500",
+            "id": "07",
+            "categoria": "tartas"
+        },
+        {
+            "imagen": "../img/productos/tartas/img-08.jpg",
+            "titulo": "Torta Frutal",
+            "precio": "300",
+            "id": "08",
+            "categoria": "tartas"
+        }
+
+
+
+
+        
+    ]
+}
